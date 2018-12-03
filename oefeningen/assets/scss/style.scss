@@ -1,0 +1,48 @@
+// this is a Sass silent comment. 
+// we don't need to show the world all this instructional stuff
+// sometimes notes are just for the developers
+
+/* 
+This is the primary HTML style
+*/ 
+
+html {
+    font-size: (12 / 16) * 1em;
+}
+
+.foo {
+    background: orange;
+    p {
+      color: blue;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    font: {
+        family: arial;
+        weight: bold;
+        size: 2em;
+      }
+      & .block {
+          border: 1px solid black;
+      }
+  }
+
+  a {
+    color: blue;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .foo {
+    .cssgradients & {
+      background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+      background: -moz-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+      background: linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+    }
+    .no-cssgradients & {
+      background: #c9de96;
+    }
+  }
+  

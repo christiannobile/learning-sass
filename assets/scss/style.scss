@@ -1,0 +1,36 @@
+body, html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0%;
+  font-family: 'Oswald', sans-serif
+}
+
+ul a{
+  text-decoration: none;
+  color: white;
+}
+
+.container { 
+  /* The image used */
+  background-image: url("../img/kino-international-startseite-pink.jpg");
+  
+
+  /* Full height */
+  height: 100%; 
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  top: 30%;
+  color: rgb(255, 255, 255);
+  font-size: 5em;
+  list-style-type: none;
+
+}
